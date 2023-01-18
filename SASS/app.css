@@ -17,7 +17,7 @@
   border-radius: 5em;
 }
 .buttons button:hover {
-  opacity: 0.5;
+  background-color: rgb(134, 10, 134);
   color: white;
   transform: scale(1.2);
 }
