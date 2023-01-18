@@ -1,0 +1,22 @@
+@import "colors";
+@import "variables";
+@import "buttons";
+$altezza: 20em;
+
+.contenitore {
+  background-color: $background-color-2;
+  color: $color-2;
+  margin: $margin-2;
+  border-radius: 2em;
+  img {
+    height: $altezza;
+    margin: $margin-1;
+    &:hover {
+      transform: rotate(180deg);
+    }
+  }
+  p {
+    border: 2px solid $background-color-3;
+    color: $color-3;
+  }
+}
